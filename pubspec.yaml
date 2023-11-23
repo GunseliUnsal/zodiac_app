@@ -1,0 +1,34 @@
+name: zodiac_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_swiper_null_safety: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/aries.jpg
+    - assets/aquarius.jpg
+    - assets/cancer.jpg
+    - assets/gemini.jpg
+    - assets/leo.jpg
+    - assets/libra.jpg
+    - assets/pisces.jpg
+    - assets/sagittarius.jpg
+    - assets/scorpio.jpg
+    - assets/taurus.jpg
+    - assets/virgo.jpg
+    - assets/capricorn.webp
